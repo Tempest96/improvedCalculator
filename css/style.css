@@ -1,0 +1,71 @@
+body{
+    margin-top: 100px;
+}
+#box{
+    margin: auto;
+    background-color: azure;
+    height: 100%;
+    width: 454px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 14pt;
+    display: block;
+    float: left;
+    background: yellow;
+}
+#box input,a{
+    margin: 10px 13px;
+    width: 90px;
+    height: 42px;
+    border: 2px solid green;
+    font-size: 12pt;
+}
+#box div input[type="text"]{
+    margin: 10px 13px;
+    width: 300px;
+    height: 40px;
+    border: 2px solid green;
+    font-size: 18pt;
+    background: green;
+    float: left;
+}
+#box input:after{
+    content: '';
+    clear: both;
+}
+#box div input{
+    width: 60px;
+    height: 60px;
+    background-color: cadetblue;
+}
+.numbers, .rightOperations{
+    float:left;
+}
+.numbers{
+    width: 270px;
+}
+#box .numbers input{
+    background-color: darkgoldenrod;
+}
+.rightOperations{
+    width: 180px;
+}
+#box .operations input:last-child{
+    width: 152px;
+    margin-left: 14px;
+    background-color: burlywood;
+}
+.prev{
+    margin: 20px;
+    background: white;
+    overflow-y: scroll;
+    height: 150px;
+    display: none;
+}
+.prev p{
+    color: chocolate;
+}
